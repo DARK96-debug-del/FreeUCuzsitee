@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for
+jjjjejejwjwwjsjsjfrom flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
 
@@ -43,7 +43,7 @@ def withdraw():
     if uc_to_withdraw >= 120 and uc_to_withdraw <= user_balance:
         user_balance -= uc_to_withdraw
         pubg_id = request.form['pubg_id']
-        return render_template('withdrawal_success.html', uc=uc_to_withdraw, pubg_id=pubg_id)
+        return render_template('withdrawal_successassalomu alekuk.html', uc=uc_to_withdraw, pubg_id=pubg_id)
     else:
         return "Withdrawal failed. Please check your balance or the withdrawal amount."
 
